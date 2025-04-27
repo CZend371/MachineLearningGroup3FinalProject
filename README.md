@@ -1,5 +1,5 @@
 # MachineLearningGroup3FinalProject
-# Student Depression Prediction – SEIS 763-03
+## Student Depression Prediction – SEIS 763-03
 
 **Project goal:** build and evaluate a machine-learning pipeline that predicts whether a student is experiencing depression, based on academic-, lifestyle-, and stress-related factors.  
 The work fulfils the semester-long class-project requirements (data ≥ 3 000 rows, multiple ML models, dimensionality reduction, k-fold CV, ensemble, IEEE paper, 20-min presentation).
@@ -17,6 +17,7 @@ jupyter lab
 Open notebook.ipynb and run all cells (GPU recommended, but CPU fallback works—just slower).
 
 📂 Repository layout
+```
 student-depression-ml/
 │
 ├── data/
@@ -41,6 +42,7 @@ student-depression-ml/
 │
 ├── environment.yml           # conda spec (CPU) + rapids.yaml (GPU optional)
 └── README.md
+```
 
 🧠 Methodology (high level)
 Cleaning & EDA – handle outliers, standardise numeric features, one-hot encode categoricals.

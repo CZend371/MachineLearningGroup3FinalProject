@@ -4,8 +4,6 @@
 **Project goal:** build and evaluate a machine-learning pipeline that predicts whether a student is experiencing depression, based on academic-, lifestyle-, and stress-related factors.  
 The work fulfils the semester-long class-project requirements (data ≥ 3 000 rows, multiple ML models, dimensionality reduction, k-fold CV, ensemble, IEEE paper, 20-min presentation).
 
----
-
 ## 🚀 Quick start
 
 ```bash
@@ -14,6 +12,7 @@ cd student-depression-ml
 conda env create -f environment.yml      # RAPIDS + scikit-learn + imbalanced-learn
 conda activate seis763
 jupyter lab
+---
 
 Open notebook.ipynb and run all cells (GPU recommended, but CPU fallback works—just slower).
 

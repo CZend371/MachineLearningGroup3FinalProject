@@ -12,7 +12,7 @@ cd student-depression-ml
 conda env create -f environment.yml      # RAPIDS + scikit-learn + imbalanced-learn
 conda activate seis763
 jupyter lab
----
+```
 
 Open notebook.ipynb and run all cells (GPU recommended, but CPU fallback works—just slower).
 
